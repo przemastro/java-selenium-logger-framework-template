@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Cognifide Suite" verbose="1">
+
+    <test name="Daily Run" preserve-order="true">
+        <classes>
+            <class name="com.cognifide.tests.Tests"/>
+            <methods>
+                <!--<include name="homePageTest"/>-->
+                <include name="secondTest"/>
+            </methods>
+        </classes>
+    </test>
+</suite>
